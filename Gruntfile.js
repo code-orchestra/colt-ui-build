@@ -15,6 +15,7 @@ module.exports = function(grunt) {
         zip: false
       },
       src: ['../colt-ui/**/*',
+          '../colt-ui/**/.bin/**',
           '!../colt-ui/.git/**',
           '!../colt-ui/*.colt',
           '!../colt-ui/projects/**',
